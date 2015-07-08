@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*******************************************
+** QTCreator Homebrew Project
+** Author: Javier J. Salmeron-Garcia
+** mail: javsalgar@gmail.com
+**
+****************************************************************************/
+-->
+<wizard version="1" kind="project" firstpage="10" id="Game Boy Advance (CMake)" category="Homebrew.Projects"
+        platformIndependent="true" featuresRequired="Plugin.CMakeProjectManager">
+    <icon>mgba.png</icon>
+    <description>Game Boy Advance ROM using CMake. Devkitarm required.</description>
+    <displayname>Game Boy Advance (CMake)</displayname>;
+    <displaycategory>Homebrew Development</displaycategory>
+    <files>
+        <file source="main.c" target="main.c" openeditor="true"/>
+        <file source="CMakeLists.txt" openproject="true"/>
+    </files>
+</wizard>
