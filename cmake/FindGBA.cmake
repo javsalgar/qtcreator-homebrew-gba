@@ -1,3 +1,24 @@
+#
+# QTCreator Homebrew Project
+# Author: Javier J. Salmeron Garcia
+# E-mail: javsalgar@gmail.com
+#
+# FindGBA
+#
+# This module detects the Devkitpro compiler, and sets the corresponding compiler
+# for GBA Roms
+#
+# The following variables are set:
+#
+# DEVKITPRO DEVKITARM: Path to the Devkitarm folder in the system. This is done by using the
+# environment bash variable DEVKITARM or DEVKITPRO. These variables are set when installing
+# devkitpro
+#
+# A function is added for compiling GBA Roms
+#
+# add_gba_rom : This function receives the rom name and the source files. 
+#
+
 set(CMAKE_SYSTEM_NAME Generic)
 set(cmake_system_processor arm)
 set(cmake_crosscompiling 1)
