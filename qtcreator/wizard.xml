@@ -13,8 +13,9 @@
     <description>Game Boy Advance ROM using CMake. Devkitarm required.</description>
     <displayname>Game Boy Advance (CMake)</displayname>;
     <displaycategory>Homebrew Development</displaycategory>
-    <files>
+    <files>    
         <file source="main.c" target="main.c" openeditor="true"/>
         <file source="CMakeLists.txt" openproject="true"/>
+        <file source="FindGBA.cmake" target="cmake/Modules/FindGBA.cmake" openproject="true"/>
     </files>
 </wizard>
